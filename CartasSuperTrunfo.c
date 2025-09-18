@@ -26,7 +26,7 @@ int main() {
   
   // Área para entrada de dados
   //CARTA 01
-  printf("CARTA 01:\n");
+  printf("Dados CARTA 01:\n");
 
   printf("Digite o Estado: ");
   scanf("%c", &estado1);
@@ -51,9 +51,9 @@ int main() {
 
 
   //CARTA 02
-  printf("CARTA 02:\n");
+  printf("Dados CARTA 02:\n");
   printf("Digite o Estado: ");
-  scanf("%c", &estado2);
+  scanf("%c(*)[1]", &estado2);
 
   printf("Digite o código: ");
   scanf("%s", codigo2);
@@ -83,8 +83,8 @@ int main() {
   printf("Código: %s\n", codigo1);
   printf("Cidade: %s\n", cidade1);
   printf("População: %d\n", população1);
-  printf("Área: %.2f\n", area1);
-  printf("PIB: %.2f\n", PIB1);
+  printf("Área: %.2f Km2\n", area1);
+  printf("PIB: R$ %.2f\n", PIB1);
   printf("Número de pontos turísticos: %d\n", turisticos1);
   printf("\n");
 
@@ -94,9 +94,9 @@ int main() {
   printf("Código: %s\n", codigo2);
   printf("Cidade: %s\n", cidade2);
   printf("População: %d\n", população2);
-  printf("Área: km2 %.2f\n", area2);
+  printf("Área: %.2f Km2\n", area2);
   printf("PIB: R$ %.2f\n", PIB2);
-  printf("Número de pontos turísticos: %d\n");
+  printf("Número de pontos turísticos: %d\n", turisticos2);
 
 return 0;
 } 
